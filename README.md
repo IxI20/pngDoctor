@@ -7,6 +7,9 @@ to use the script please store Damaged png in the same Folder/Directory,
 add the file name as an arguement without file path when running the
 python file.
 
+For a demonstration use test.png in this repository using this command
+python pngDoc.py test.png
+
 Uses
 ========================================================================
 This script simply checks PNG signature, IHDR and IEND blocks for the
