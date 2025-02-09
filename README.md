@@ -16,7 +16,6 @@ This script simply checks PNG signature, IHDR and IEND blocks for the
 correct hex values and replaces them if they are incorrect
 
 this script will not restore a PNG if bytes have been added to the file,
-only if they have been replaced. This script also does not interact or
-check the CRC (Cyclic Redundancy Check).
+only if they have been replaced. This script does not check IDAT chunks.
 
 
